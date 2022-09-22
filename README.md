@@ -126,24 +126,6 @@ Returns a random number as a nonce so the server uses it for mining.
 		std::cout << std::string(20, '*') << std::endl;
 	}
 	```
-	
-# Hint
-Instructions to use functions in `crypto.cpp/h`  file.
-- To calculate the *sha256* of a string you can use the `crypto.cpp/h` function as:
-	```cpp
-	std::string hash{crypto::sha256("hi")}
-	```
-- To generate RSA key pairs do:
-	```cpp
-	std::string public_key{}, private_key{};
-	crypto::generate_key(public_key, private_key);
-	```
-- To sign and authenticate a string with your RSA keys, use:
-	```cpp
-	std::string signature = crypto::signMessage(private_key, "my data");
-	bool authentic = crypto::verifySignature(public_key, "my data", signature);
-	```
-
 # Finally
 As mentioned before, do not alter other files already populated except otherwise indicated. In case you want to test your code you may use the `debug` section of the `main.cpp`.
 
