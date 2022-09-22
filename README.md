@@ -1,15 +1,3 @@
-# Advanced Programming - HW2
-<p  align="center"> <b>Homework 2 - Spring 2022 Semester <br> Deadline: Tuesday Esfand 24st - 11:59 pm</b> </p>
-
-## Outline
-
-In this homework we are going to implement a simple program to simulate what is happening in **cryptocurrencies**. 
-In this homework we are going to implement 2 classes one of them is called `Server` and the other one is the `Client`. Unlike famous cryptocurrencies we are going to use a centralized server to keep track of our clients and transactions, the clients on the other hand can use the server to transfer money to each other and most importantly mine transactions to receive rewards.
-Remember for this homework you will need to understand the concepts of *hashing* and *digital signatures*, for this you can use the functions provided in `crypto.cpp/h`file.
-**note.** You are only allowed  to alter `server.cpp/h` ,  `client.cpp/h`, and only the debug section of `main.cpp`. 
-
-
-
 # Server Class
 Use the code fraction bellow to implement this class. **note.** you may need to add some keywords to these functions if necessary. other than these keywords you are not allowed to change the functions or add other functions in this class.
 ```cpp
